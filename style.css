@@ -1,0 +1,129 @@
+
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+      padding: 30px 20px;
+      color: #1e2a3e;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #0a4b6e;
+    }
+    form {
+      background: white;
+      max-width: 900px;
+      margin: 0 auto 30px auto;
+      padding: 25px 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 15px;
+    }
+    form div {
+      flex: 1;
+      min-width: 180px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      color: #2c3e50;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      transition: 0.2s;
+    }
+    input[type="text"]:focus {
+      border-color: #0a4b6e;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(10,75,110,0.1);
+    }
+    button, input[type="reset"] {
+      background: #0a4b6e;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 40px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-size: 0.9rem;
+    }
+    button:hover {
+      background: #0e5e8a;
+    }
+    input[type="reset"] {
+      background: #6c757d;
+    }
+    input[type="reset"]:hover {
+      background: #5a6268;
+    }
+    table {
+      width: 95%;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    th, td {
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    th {
+      background-color: #e9f0f5;
+      font-weight: 600;
+      color: #0a4b6e;
+    }
+    td:last-child, th:last-child {
+      text-align: center;
+      white-space: nowrap;
+    }
+    .action-buttons a {
+      text-decoration: none;
+      margin: 0 4px;
+    }
+    .action-buttons button {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 6px 8px;
+      border-radius: 30px;
+      transition: background 0.2s;
+    }
+    .action-buttons button:hover {
+      background: #f0f0f0;
+    }
+    .delete-btn button {
+      color: #c0392b;
+    }
+    .edit-btn button {
+      color: #2c6e9e;
+    }
+    @media (max-width: 700px) {
+      form {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      table {
+        font-size: 0.85rem;
+      }
+      th, td {
+        padding: 10px 6px;
+      }
+    }

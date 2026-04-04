@@ -27,20 +27,22 @@ A simple task management web application built with PHP following the MVC design
 
 ## Project Structure
 task-manager/
-├── task_DB.sql               
-├── config.php                
-├── README.md 
-├── style.css    
-├── task_Models/
-│   └── db.php                
-├── task_Controllers/
-│   ├── addTask.php           
-│   ├── retrieveTask.php      
-│   ├── updateTask.php        
-│   └── deleteTask.php        
-└── task_Views/
-    ├── index.php             
-    └── modifierTask.php      
+├── DB/
+│   └── Task_DB.sql    
+├── App/
+│   ├── config.php
+│   ├── style.css    
+│   ├── task_Models/
+|       └── db.php                
+│   ├── task_Controllers/
+│   │   ├── addTask.php           
+│   │   ├── retrieveTask.php      
+│   │   ├── updateTask.php        
+│   │   └── deleteTask.php        
+│   └── task_Views/
+│       ├── index.php             
+│       └── modifierTask.php                
+└── README.md       
 
 ## Prerequisites
 Make sure you have the following installed on your local machine:

@@ -4,5 +4,5 @@ if (!empty($_GET['id']) ){
 $task= new Task();
 $task->deleteTask($_GET['id']);
 }
-header("Location: ../task_Views/index.php");
+header("Location: ../task_Views/#taskList");
 ?>

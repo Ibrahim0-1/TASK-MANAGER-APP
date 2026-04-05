@@ -26,17 +26,11 @@ require '../task_Controllers/retrieveTask.php';
     <input type="reset" value="Effacer">
 
   </form>
+
   <br> <br>
  <?php $tasks= getTasks_Controller(); ?>
- <style>
-  #t, td , th{
-    border: black solid 1px  ;
-}
-  #t{
-  border-collapse: collapse;
-}
- </style>
-   <table id="t" >
+ <section id="taskList">
+   <table >
               <tr>               
                 <th> Titre </th>
                 <th> Description </th>
@@ -57,7 +51,7 @@ require '../task_Controllers/retrieveTask.php';
            
   <?php }?>
  </table>
-
+</section>
 </body>
 </html>
  

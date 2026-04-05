@@ -26,6 +26,7 @@ A simple task management web application built with PHP following the MVC design
 - PDO for database connection
 
 ## Project Structure
+```
 task-manager/
 ├── DB/
 │   └── Task_DB.sql    
@@ -43,6 +44,7 @@ task-manager/
 │       ├── index.php             
 │       └── modifierTask.php                
 └── README.md       
+```
 
 ## Prerequisites
 Make sure you have the following installed on your local machine:
